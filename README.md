@@ -24,6 +24,8 @@ CromoZome alive, by eating the other CromoZomes.
 The project is setup using Penjin and Code::Blocks IDE
 
 ## Dependencies
-SDL
-SDL_Image
-SDL_GFX
+* SDL
+* SDL_Image
+* SDL_GFX
+* SDL_TTF
+* SDL_mixer
