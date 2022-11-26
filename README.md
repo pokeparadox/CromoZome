@@ -19,3 +19,11 @@ CromoZome alive, by eating the other CromoZomes.
    -Periodically you'll experience Plague which kills off several of the longest CromoZomes.
    -You will also undergo mutations which will mix up the entire area.
    -The game ends when you die and you can enter your high-score!
+
+## Building
+The project is setup using Penjin and Code::Blocks IDE
+
+## Dependencies
+SDL
+SDL_Image
+SDL_GFX
