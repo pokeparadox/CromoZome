@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PXML xmlns="http://openpandora.org/namespaces/PXML">
+<package id="cromozome">
+<version major="0" minor="8" release="1" build="1" type="release"/>
+<author name="PokeParadox" email="pokeparadox@gmail.com" website="http://www.pirategames.co.uk"/>
+<titles>
+<title lang="en_US">CromoZome</title>
+</titles>
+<descriptions>
+<description lang="en_US">CromoZome! a score attack genetic survival game by PokeParadox, where you strive to keep your CromoZome alive, by eating the other CromoZomes.</description>
+</descriptions>
+<icon src="CromoZome.png"/>
+</package>
+<application id="cromozome">
+<exec command="CromoZome_R"/>
+<version major="0" minor="8" release="1" build="0" type="release"/>
+<author name="PokeParadox" website="http://projectinfinity.org.uk/doku.php?id=homebrew:games:cromozome"/>
+<titles>
+<title lang="en_US">CromoZome</title>
+</titles>
+<title lang="en_US">CromoZome</title>
+<!--
+Extra block for compatibility with OS versions before HF6
+-->
+<descriptions>
+<description lang="en_US">CromoZome! a score attack genetic survival game by PokeParadox, where you strive to keep your CromoZome alive, by eating the other CromoZomes.</description>
+</descriptions>
+<description lang="en_US">CromoZome! a score attack genetic survival game by PokeParadox, where you strive to keep your CromoZome alive, by eating the other CromoZomes.</description>
+<!--
+Extra block for compatibility with OS versions before HF6
+-->
+<icon src="CromoZome.png"/>
+<licenses>
+<license name="other" />
+</licenses>
+<previewpics>
+<pic src="./preview/preview01.png"/>
+<pic src="./preview/preview02.png"/>
+<pic src="./preview/preview03.png"/>
+<pic src="./preview/preview04.png"/>
+<pic src="./preview/preview05.png"/>
+<pic src="./preview/preview06.png"/>
+</previewpics>
+<info name="CromoZome Readme" type="text/plain" src="readme.txt"/>
+<categories>
+<category name="Game">
+<subcategory name="ArcadeGame"/>
+</category>
+</categories>
+</application>
+</PXML>

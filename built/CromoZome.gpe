@@ -1,0 +1,3 @@
+#!/bin/bash
+./CromoZome_R
+cd /usr/gp2x; ./gp2xmenu

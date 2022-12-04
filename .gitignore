@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+/output/CromoZome_R
+*.cbp.save
+*.cpp.save
+*.h.save
+*.pnd
+*.layout.save
+/bin/*
+*.depend
