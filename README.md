@@ -29,3 +29,4 @@ The project is setup using Penjin and Code::Blocks IDE
 * SDL_GFX
 * SDL_TTF
 * SDL_mixer
+* Xi
