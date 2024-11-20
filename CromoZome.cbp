@@ -5,7 +5,7 @@
 		<Option title="CromoZome" />
 		<Option pch_mode="2" />
 		<Option default_target="Lin Release" />
-		<Option compiler="gcc" />
+		<Option compiler="linux" />
 		<Option virtualFolders="MyGame/;MyGame/States/;PenjinBase/;PenjinBase/Sprite/;PenjinBase/Particle/;PenjinBase/Menu/;PenjinBase/PlatformSpecific/;PenjinBase/PlatformSpecific/GP2X/;PenjinBase/PlatformSpecific/Wii/;PenjinBase/PlatformSpecific/Pandora/;PenjinBase/Input/;PenjinBase/Scoring/;PenjinBase/Input/KeyMapper/;PenjinBase/Draw/;PenjinBase/Particle/Collidables/;PenjinBase/Particle/Effects/;PenjinBase/3D/;PenjinBase/Sound/;PenjinBase/Particle/Particles/;PenjinBase/Menu/MenuItems/;PenjinBase/Draw/Primitives/;PenjinBase/Physics/;PenjinBase/Draw/3D/;PenjinBase/Physics/Vectors/;PenjinBase/Physics/Vectors/Trenki/" />
 		<Build>
 			<Target title="W32 Debug">
@@ -104,7 +104,6 @@
 					<Add option="-s" />
 					<Add option="`sdl-config --libs`" />
 					<Add option="-lX11 -lXi" />
-					<Add option="-lSDL" />
 					<Add option="-lSDL_ttf" />
 					<Add option="-lSDL_image" />
 					<Add option="-lSDL_mixer" />

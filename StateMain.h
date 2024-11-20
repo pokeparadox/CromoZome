@@ -60,7 +60,7 @@ class StateMain : public BaseState
 		void checkLevelUp();
 
 		Text text;
-		Animation background;
+		AnimatedSprite background;
 		Vector2di backPos[4];
 
 		AnimatedSprite redSprite,greenSprite,blueSprite;	//	Animated sprites for snakes

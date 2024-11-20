@@ -45,6 +45,7 @@ void StateGameover::init()
         //music.play()
 	}
 	GFX::setClearColour(BLACK);
+	accumBuffer.update();
 }
 
 void StateGameover::userInput()

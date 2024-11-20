@@ -75,7 +75,8 @@ void StateMain::loadSprites()
 
     for(uint i=1; i < 11; ++i)
     {
-        p1indicator.loadFrame(dir.append(col).append(StringUtility::leadingZero(i)).append(ext));
+        string temp = dir;
+        p1indicator.loadFrame(temp.append(col).append(StringUtility::leadingZero(i)).append(ext));
     }
     p1indicator.setFrameRate(FIFTEEN_FRAMES);
     p1indicator.setLooping(true);
@@ -90,11 +91,9 @@ void StateMain::loadSprites()
     blueSprite.setLooping(true);
     //	Setup background
 
-    //background[i].setUseHardware(true);
     background.loadFrames(dir+"background" + ext, 8, 2);
     background.setFrameRate(FIFTEEN_FRAMES);
     background.setLooping(true);
-    //      background[i].disableTransparentColour();
 
     backPos[0] = Vector2di(0,0);
     backPos[1] = Vector2di(160,0);
